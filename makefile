@@ -1,6 +1,7 @@
 build:
+	rm -rf dist
 	mkdir -p dist
-	cp src/* dist/
+	cp -rf src/* dist/
 
 docker-up:
 	docker compose up --build

@@ -1,0 +1,23 @@
+p {
+  font-family: "Georgia", serif;
+}
+
+p.font-size {
+  font-size: 3.125em;
+}
+
+p.normal {
+    font-style: normal;
+}
+
+p.italic {
+    font-style: italic;
+}
+
+p.smallcaps {
+    font-variant: small-caps;
+}
+
+p.bold {
+    font-weight: bold;
+}

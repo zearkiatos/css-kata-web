@@ -1,0 +1,17 @@
+h1 {
+    color: orange;
+  }
+  
+  p {
+    text-align: right;
+  }
+  
+  .description {
+    font-weight: bold;
+    color: blue;
+  }
+
+  #header {
+    background-color: green;
+  }
+  

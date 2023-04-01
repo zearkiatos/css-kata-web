@@ -1,0 +1,28 @@
+body {
+  background-color: #733924;
+}
+
+h1 {
+  background-color: #d9984a;
+}
+
+div {
+  background-color: #a64e2e;
+}
+
+div.border-color {
+  border-color: #0000ff;
+  border-style: solid;
+}
+
+div.color {
+  color: darkred;
+}
+
+div.outline-color {
+  color: darkred;
+  outline-color: red;
+  outline-style: solid;
+  border-color: orange;
+  border-style: solid;
+}

@@ -1,0 +1,103 @@
+div {
+  width: 300px;
+  background-color: lightgray;
+  border: 15px solid orange;
+  padding: 50px;
+  margin: 20px;
+}
+
+.block {
+  width: 300px;
+  background-color: lightgray;
+  border: none;
+  padding: inherit;
+  margin: inherit;
+  display: block;
+}
+
+.inline {
+  width: 300px;
+  background-color: lightgray;
+  border: none;
+  padding: inherit;
+  margin: inherit;
+  display: inline;
+}
+
+.inline-block {
+  width: 300px;
+  background-color: lightgray;
+  border: none;
+  padding: inherit;
+  margin: inherit;
+  display: inline-block;
+}
+
+.static {
+  width: 300px;
+  background-color: lightgray;
+  border: none;
+  margin: 10px;
+  position: static;
+}
+.relative {
+  width: 300px;
+  background-color: lightgray;
+  border: none;
+  margin: 10px;
+  position: relative;
+}
+
+.important {
+  background-color: orange;
+  position: relative;
+  top: 20px;
+  left: 25px;
+}
+
+.absolute {
+  width: 300px;
+  background-color: lightgray;
+  margin: 10px;
+  border: none;
+}
+
+.absolute .important-absolute {
+  background-color: orange;
+  position: absolute;
+  top: 20px;
+  left: 25px;
+}
+
+.fixed {
+  width: 200px;
+  background-color: lightgray;
+  margin: 10px;
+  border: none;
+}
+
+.fixed-important {
+  background-color: orange;
+  position: fixed;
+  top: 6px;
+  left: 250px;
+}
+
+.default {
+  width: inherit;
+  background-color: inherit;
+  border: inherit;
+  padding: inherit;
+  margin: inherit;
+}
+
+.photo {
+  width: 100px;
+}
+
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}

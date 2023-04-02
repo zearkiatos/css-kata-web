@@ -1,0 +1,12 @@
+.first {
+  font-style: italic;
+}
+
+.second {
+    font-weight: bold;
+}
+
+.third {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}

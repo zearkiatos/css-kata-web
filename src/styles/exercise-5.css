@@ -1,0 +1,11 @@
+h1 {
+    background-color: dodgerblue;
+    color: white;
+}
+
+p {
+    color: mediumseagreen;
+    border-style: solid;
+    border-color: tomato;
+    border-width: 2px;
+}

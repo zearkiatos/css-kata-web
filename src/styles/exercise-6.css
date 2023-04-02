@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+div.container {
+    height: 700px;
+    display: block;
+    background-color: lightgrey;
+    padding: 20px;
+}
+
+.leftcolumn,  .rightcolumn {
+  display: inline-block;
+  background-color: white;
+  margin-right: 10px;
+  height: 400px;
+  padding: 0 1rem;
+}
+
+.leftcolumn {
+    width: 70%;
+    float: left;
+  }
+  
+  .rightcolumn {
+    width: 27%;
+    float: right;
+  }
+
+  .fakeimg {
+    background-color: gray;
+    text-align: center;
+  }
+
+  .fakeimg img {
+    margin-top: 20px;
+  }
